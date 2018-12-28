@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "elements/*",
+    "themes/*"
+  ],
+  "version": "0.0.1",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": ["elements/*", "themes/*"]
+}
