@@ -1,3 +1,11 @@
+:host {
+    display: block;
+}
+
+:host([hidden]) {
+    display: none;
+}
+
 app-drawer[disabled] {
     opacity: 0.5;
     pointer-events: none;
