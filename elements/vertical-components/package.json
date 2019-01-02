@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "@zooroyal/vert-readmore": "^0.0.5",
-    "@zooroyal/vert-theme-zooroyal": "^0.0.1"
+    "@zooroyal/vert-theme-zooroyal": "^0.0.6"
   },
   "publishConfig": {
     "access": "public"
