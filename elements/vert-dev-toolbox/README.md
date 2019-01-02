@@ -1,0 +1,2 @@
+#Vertical Components dev dependencies
+
