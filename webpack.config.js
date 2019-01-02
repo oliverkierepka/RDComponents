@@ -8,8 +8,8 @@ module.exports = {
     output:{
         filename:'[name].[contenthash].js',
         path:path.resolve(__dirname,
-            'dist'      ),
-        libraryTarget:"umd"
+            'dist'),
+        libraryTarget: "umd"
     },
 
     devServer: {
