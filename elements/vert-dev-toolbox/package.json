@@ -23,13 +23,17 @@
     "@webcomponents/webcomponentsjs": "^2.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
     "css-loader": "^2.1.0",
     "style-loader": "^0.23.1",
+    "web-component-tester": "^6.9.2",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.1.2"
   },
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "95e89242698654ec468e9cbed15c8e8c155f0e38"
+  "gitHead": "73607c32bb69b0d6f43240fa4bf05484f69b1d6a"
 }

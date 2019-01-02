@@ -18,7 +18,7 @@
   "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
   "license": "MIT",
   "devDependencies": {
-    "@zooroyal/vert-dev-toolbox": "^0.0.1",
+    "@zooroyal/vert-dev-toolbox": "^0.0.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^23.0.1",

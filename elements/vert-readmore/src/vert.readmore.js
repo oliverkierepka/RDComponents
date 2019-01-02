@@ -121,6 +121,18 @@ class VertReadmore extends HTMLElement {
     toggleReadMore() {
         this.toggleAttribute("show");
     }
+
+    /**
+     * Sometimes it's just nice to say hi.
+     *
+     * @param {string} greeting A positive greeting.
+     * @return {string} The full greeting.
+     */
+    sayHello(greeting) {
+        var response = greeting || 'Hello World!';
+        return 'vert-readmore says, ' + response;
+    }
+
 }
 
 customElements.define('vert-readmore', VertReadmore);
