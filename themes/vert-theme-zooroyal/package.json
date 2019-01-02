@@ -1,6 +1,6 @@
 {
   "name": "@zooroyal/vertical-theme-zooroyal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "pritave": true,
   "description": "Vertical Components Theme for ZooRoyal",
   "keywords": [
@@ -18,8 +18,6 @@
   "homepage": "https://github.com/ZooRoyal/VerticalComponents2#README",
   "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
   "license": "MIT",
-  "dependencies": {
-  },
   "publishConfig": {
     "access": "public"
   }
