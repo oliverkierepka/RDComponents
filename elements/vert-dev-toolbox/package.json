@@ -29,15 +29,18 @@
     "babel-jest": "^23.0.1",
     "babel-loader": "^8.0.4",
     "babel-preset-stage-1": "^6.24.1",
+    "concurrently": "^4.1.0",
     "css-loader": "^2.1.0",
     "del-cli": "^1.1.0",
     "jest": "^23.6.0",
     "lerna": "^3.4.3",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   },
   "publishConfig": {
     "access": "public"

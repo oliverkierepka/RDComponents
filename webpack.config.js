@@ -1,30 +1,20 @@
 // webpack.settings.js - webpack settings config
+var path = require('path');
+
 module.exports = {
-    name: "Vertical Web Components",
-    copyright: "ZooRoyal GmbH",
-    entry: './src/index.js',
-    paths: {
-        src: {
-            base: "./src/",
-            css: "./src/css/",
-            js: "./src/js/"
-        },
-        dist: {
-            base: "./dist/",
-            clean: [
-                "./img",
-                "./criticalcss",
-                "./css",
-                "./js"
-            ]
-        },
-        templates: "./templates/"
+    mode:"development",
+    name:"Vertical Web Components General Setup",
+    entry:'./src/index.js',
+    output:{
+        filename:'[name].[contenthash].js',
+        path:path.resolve(__dirname,
+            'dist'      ),
+        libraryTarget:"umd"
     },
-    output: {
-        filename: '[name].[contenthash].js',
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: "/assets/",
-        libraryTarget: "umd",
+
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 9000
     }
 };
-
