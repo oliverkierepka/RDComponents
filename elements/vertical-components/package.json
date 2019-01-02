@@ -1,6 +1,6 @@
 {
   "name": "vertical-components-web",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "pritave": true,
   "description": "All Vertical Components in one neat package",
   "keywords": [
@@ -19,7 +19,7 @@
   "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
   "license": "MIT",
   "dependencies": {
-    "@zooroyal/vert-readmore": "^0.0.3",
+    "@zooroyal/vert-readmore": "^0.0.4",
     "@zooroyal/vert-theme-zooroyal": "^0.0.1"
   },
   "publishConfig": {
