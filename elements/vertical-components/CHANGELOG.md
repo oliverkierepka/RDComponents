@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.6](https://github.com/mrmoree/VerticalComponents2/compare/@zooroyal/vertical-components-web@0.0.5...@zooroyal/vertical-components-web@0.0.6) (2019-01-02)
+
+**Note:** Version bump only for package @zooroyal/vertical-components-web
+
+
+
+
+
 ## 0.0.5 (2019-01-02)
 
 **Note:** Version bump only for package @zooroyal/vertical-components-web
