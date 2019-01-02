@@ -4,6 +4,7 @@ var path = require('path');
 module.exports = {
     mode:"development",
     name:"Vertical Web Components General Setup",
+    "env": "production",
     entry:'./src/index.js',
     output:{
         filename:'[name].[contenthash].js',

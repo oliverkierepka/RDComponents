@@ -5,7 +5,6 @@
       {
         "shippedProposals": true,
         "modules": false,
-        "comments": true,
         "targets": {
           "browsers": [
             "last 2 versions"
