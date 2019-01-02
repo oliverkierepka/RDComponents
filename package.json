@@ -18,7 +18,7 @@
   "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
   "license": "MIT",
   "devDependencies": {
-    "@zooroyal/vert-dev-toolbox": "^0.0.6"
+    "@zooroyal/vert-dev-toolbox": "^0.0.7"
   },
   "scripts": {
     "test": "jest",
