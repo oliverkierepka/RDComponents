@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
-    "@zooroyal/vert-theme-zooroyal": "^0.0.1"
+    "@zooroyal/vert-theme-zooroyal": "^0.0.4"
   },
   "publishConfig": {
     "access": "public"
