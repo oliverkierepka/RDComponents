@@ -78,6 +78,35 @@ fabric.properties
 ### PhpStorm Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
+# dependencies
+node_modules
+
+# testing
+/coverage
+
+# production
+dist
+
+# testing
+/coverage
+
+# production
+dist
+
+# IDEs and editors
+/.idea
+/.vscode
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Thumbs.db
+
+*.log
+
 # *.iml
 # modules.xml
 # .idea/misc.xml
@@ -87,8 +116,6 @@ fabric.properties
 .idea/sonarlint
 
 # End of https://www.gitignore.io/api/phpstorm
-
-node_modules
 .DS_Store
 lerna-debug.log
 *.local.umd.js

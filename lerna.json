@@ -3,7 +3,7 @@
     "elements/*",
     "themes/*"
   ],
-  "version": "0.0.1",
+  "version": "independent",
   "npmClient": "yarn",
   "useWorkspaces": true,
   "workspaces": [
@@ -12,6 +12,8 @@
   ],
   "command": {
     "publish": {
+      "conventionalCommits": true,
+      "yes": true,
       "ignoreChanges": [
         "ignored-file",
         "*.md"

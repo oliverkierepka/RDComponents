@@ -19,10 +19,21 @@
   "license": "MIT",
   "devDependencies": {
     "@zooroyal/vert-dev-toolbox": "^0.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "del-cli": "^1.1.0",
+    "jest": "^23.6.0",
     "lerna": "^3.4.3"
   },
   "scripts": {
-    "build": "webpack"
+    "test": "jest",
+    "del-dist": "lerna exec --parallel -- del-cli dist",
+    "prebuild": "yarn del-dist",
+    "build": "lerna exec -- babel src -d dist --ignore test.js",
+    "start": "node packages/catalog/dist/catalog"
   },
   "npmClient": "yarn",
   "private": true,
@@ -33,5 +44,16 @@
       "themes/*"
     ],
     "nohoist": []
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    },
+    "collectCoverage": true
   }
 }

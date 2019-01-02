@@ -1,3 +1,3 @@
 #Vertical Theming   
 
-to be defined
+//TODO: write vertical theme readme
