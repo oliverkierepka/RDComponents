@@ -1,6 +1,6 @@
 {
   "name": "@zooroyal/vert-dev-toolbox",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "pritave": true,
   "description": "The toolbox gathering all dev dependencies for vertical components",
   "keywords": [
