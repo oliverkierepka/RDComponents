@@ -1,0 +1,26 @@
+{
+  "name": "@zooroyal/vert-dev-eslint-config",
+  "version": "0.0.1",
+  "description": "ESLINT configuration for vertical components",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mrmoree/VerticalComponents2.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZooRoyal/VerticalComponents2/issues"
+  },
+  "homepage": "https://github.com/ZooRoyal/VerticalComponents2#readme",
+  "peerDependencies": {
+    "eslint": "^5.14.1"
+  }
+}
