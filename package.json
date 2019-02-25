@@ -26,7 +26,7 @@
     "prebuild": "yarn del-dist",
     "start": "node catalog/dist",
     "bootstrap": "lerna bootstrap",
-    "lint": "eslint -c --cache --ignore-path .gitignore ./elements/*/src",
+    "lint": "eslint --cache --ignore-path .gitignore ./elements/*/src",
     "dev": "concurrently \"yarn watch\" \"lerna run dev --stream\"",
     "build:babel": "lerna exec --ignore @zooroyal/vert-dev-* --parallel -- babel src -d dist --config-file ../../.babelrc --source-maps",
     "build:webpack": "lerna run build:webpack",
