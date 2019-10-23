@@ -2,6 +2,8 @@
   "presets": [
     [
       "@babel/preset-env",
+      "@babel/react", 
+      "@babel/typescript",
       {
         "shippedProposals": true,
         "modules": false,
@@ -15,11 +17,14 @@
   ],
   "ignore": [
     "node_modules",
-    "vert-dev-toolbox",
+    "rw-dev-toolbox",
     "*/test"
   ],
   "plugins": [
-    "syntax-dynamic-import"
+    "syntax-dynamic-import",
+    "@babel/plugin-proposal-class-properties",
+    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true } ],
+    ["@babel/env", { "modules": false }]
   ],
   "env": {
     "test": {

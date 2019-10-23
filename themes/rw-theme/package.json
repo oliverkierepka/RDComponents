@@ -1,0 +1,23 @@
+{
+  "name": "@okoliver/rw-theme",
+  "version": "0.0.1",
+  "description": "Vertical Components Theme for Rewe Digital",
+  "keywords": [
+    "rewe",
+    "webcomponents",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mrmoree/ReweComponents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrmoree/ReweComponents/issues"
+  },
+  "homepage": "https://github.com/mrmoree/ReweComponents#README",
+  "author": "Oliver Kierepka <ooliver.kierepka@rewe-digital.de> (https://rewe.de)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

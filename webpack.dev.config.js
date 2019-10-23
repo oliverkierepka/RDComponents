@@ -11,9 +11,18 @@ module.exports = [
             devtool: 'inline-source-map',
             devServer: configureDevServer(LEGACY_CONFIG),
             module: {
-                rules: [
+                rules: [    
                     configurePostcssLoader(LEGACY_CONFIG),
                     configureImageLoader(LEGACY_CONFIG),
+                    {
+                        test: /\.tsx?$/,
+                        loader: 'babel-loader',
+                      },
+                      {
+                        test: /\.js$/,
+                        use: ["source-map-loader"],
+                        enforce: "pre"
+                      }
                 ],
             },
             plugins: [

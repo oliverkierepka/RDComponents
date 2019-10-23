@@ -114,6 +114,11 @@ dist
 # testing
 /coverage
 
+lerna-debug.log
+npm-debug.log
+packages/*/lib
+.idea
+
 # production
 dist
 

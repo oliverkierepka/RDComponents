@@ -1,43 +1,76 @@
 {
-  "name": "@zooroyal/vertical-components",
+  "name": "@okoliver/rw-components",
   "version": "0.0.1",
-  "pritave": true,
-  "description": "Vertical Web Components",
+  "description": "Rewe Web Components",
   "keywords": [
-    "vertical",
+    "rewe",
     "webcomponents"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrmoree/VerticalComponents2.git"
+    "url": "git+ssh://git@github.com/mrmoree/ReweComponents.git"
   },
   "bugs": {
-    "url": "https://github.com/ZooRoyal/VerticalComponents2/issues"
+    "url": "https://github.com/mrmoree/ReweComponents/issues"
   },
-  "homepage": "https://github.com/ZooRoyal/VerticalComponents2#README",
-  "author": "Oliver Kierepka <o.kierepka@zooroyal.de> (https://zooroyal.de)",
+  "homepage": "https://github.com/mrmoree/ReweComponents#README",
+  "author": "Oliver Kierepka <oliver.kierepka@rewe-digital.de> (https://rewe.de)",
   "license": "MIT",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.3.0",
+    "lit-element": "^2.2.1"
+  },
   "devDependencies": {
-    "@zooroyal/vert-dev-toolbox": "^0.0.8"
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/jest": "^24.0.19",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-stage-1": "^6.24.1",
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.0",
+    "del-cli": "^1.1.0",
+    "eslint": "^5.14.1",
+    "eslint-plugin-security": "^1.4.0",
+    "jest": "^24.1.0",
+    "lerna": "^3.4.3",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "jest",
     "del-dist": "lerna exec --parallel -- del-cli dist",
-    "prebuild": "yarn del-dist",
-    "start": "node catalog/dist",
+    "prebuild": "npm del-dist",
     "bootstrap": "lerna bootstrap",
-    "lint": "eslint --cache --ignore-path .gitignore ./elements/*/src",
-    "dev": "concurrently \"yarn watch\" \"lerna run dev --stream\"",
-    "build:babel": "lerna exec --ignore @zooroyal/vert-dev-* --parallel -- babel src -d dist --config-file ../../.babelrc --source-maps",
+    "lint": "lerna eslint --cache --ignore-path .gitignore ./**/src",
+    "build:babel": "lerna exec --ignore @okoliver/rw-dev-* --parallel -- babel src -d dist --config-file ../../.babelrc --source-maps",
     "build:webpack": "lerna run build:webpack",
-    "build": "yarn build:babel && yarn build:webpack",
-    "release": "yarn build && lerna publish",
-    "watch": "yarn build:babel -- -w",
-    "predeploy": "yarn build",
+    "build:ts": "lerna tsc",
+    "build": "npm build:ts && build:babel -- && npm build:webpack",
+    "release": "npm build && lerna publish",
+    "dev": "npm watch",
+    "watch": "concurrent \"npm build:ts\" \"npm build:babel --\" \"npx jest -w",
+    "predeploy": "npm build",
     "deploy": "gh-pages -d catalog/dist"
   },
-  "npmClient": "yarn",
-  "private": true,
+  "npmClient": "npm",
   "useWorkspaces": true,
   "workspaces": {
     "packages": [
@@ -46,15 +79,5 @@
     ],
     "nohoist": []
   },
-  "jest": {
-    "coverageThreshold": {
-      "global": {
-        "branches": 90,
-        "functions": 95,
-        "lines": 95,
-        "statements": 95
-      }
-    },
-    "collectCoverage": true
-  }
+  "main": "eslintrc.js"
 }

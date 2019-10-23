@@ -7,9 +7,9 @@ This is the lerna+yarn mono-repo for Vertical Web-Components.
 Getting Started
 ---------------
 ```bash
-$ yarn
-$ yarn build
-$ yarn start
+$ npm install
+$ npm build
+$ npm start
 ```
 
 Testing
@@ -17,5 +17,15 @@ Testing
 ```bash
 $ yarn test
 ```
+
+
+Create new Module 
+-------
+
+```bash
+$ lerna create
+```
+
+Creates a new module in the elements package containing a default test wrapper in __test__ directory and a basic es6 module in the lib folder. 
 
 
