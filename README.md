@@ -1,6 +1,6 @@
-# VerticalComponents
+# ReweComponents
 
-This is the lerna+yarn mono-repo for Vertical Web-Components. 
+This is the monorepo for Rewe Web-Components. 
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
@@ -15,17 +15,14 @@ $ npm start
 Testing
 -------
 ```bash
-$ yarn test
+$ npm run test
 ```
 
-
-Create new Module 
+Linting 
 -------
-
 ```bash
-$ lerna create
+$ npm run lint
 ```
 
-Creates a new module in the elements package containing a default test wrapper in __test__ directory and a basic es6 module in the lib folder. 
 
 
