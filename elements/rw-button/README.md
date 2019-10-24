@@ -1,11 +1,11 @@
-# `@okoliver/rw-button`
+# `@mrmoree/rw-button`
 
 > TODO: description
 
 ## Usage
 
 ```
-const rwButton = require('@okoliver/rw-button');
+const rwButton = require('@mrmoree/rw-button');
 
 // TODO: DEMONSTRATE API
 ```

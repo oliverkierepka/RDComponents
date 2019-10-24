@@ -1,5 +1,5 @@
 {
-  "name": "@okoliver/rw-components",
+  "name": "@mrmoree/rw-components",
   "version": "0.0.3",
   "description": "All Rewe Components in one neat package",
   "keywords": [
@@ -27,9 +27,9 @@
   "author": "Oliver Kierepka <oliver.kierepka@rewe-digital.de> (https://rewe.de)",
   "license": "MIT",
   "dependencies": {
-    "@okoliver/rw-button": "^0.0.1",
-    "@okoliver/rw-readmore": "^0.0.3",
-    "@okoliver/rw-theme": "^0.0.3"
+    "@mrmoree/rw-button": "^0.0.1",
+    "@mrmoree/rw-readmore": "^0.0.3",
+    "@mrmoree/rw-theme": "^0.0.3"
   },
   "publishConfig": {
     "access": "public"

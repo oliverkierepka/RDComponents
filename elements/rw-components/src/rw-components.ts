@@ -1,7 +1,7 @@
 //import all components
-import ReweReadMore from '@okoliver/rw-readmore';
-import ReweButton from '@okoliver/rw-button';
-import ReweTheme from '@okoliver/rw-theme';
+import ReweReadMore from '@mrmoree/rw-readmore';
+import ReweButton from '@mrmoree/rw-button';
+import ReweTheme from '@mrmoree/rw-theme';
 
 // Export all components.
 export {
