@@ -84,6 +84,7 @@ class ReweReadmore extends HTMLElement {
         if (readmoreTrigger) {
             readmoreTrigger.addEventListener('click', e => {
                 // Don't toggle readmore if it's disabled.
+                console.log(e);
                 if (this.disabled) {
                     return;
                 }
@@ -111,6 +112,9 @@ class ReweReadmore extends HTMLElement {
         if (this.disabled) {
             console.log("element is disabled");
             return false;
+        }
+        if (name || oldValue || newValue) {
+            console.log("some attribute changed")
         }
         if (this.show) {
             console.log("we read more");

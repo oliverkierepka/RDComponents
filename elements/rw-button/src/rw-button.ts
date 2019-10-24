@@ -1,4 +1,4 @@
-import { LitElement, html, property } from "lit-element";
+import { LitElement, html } from "lit-element";
 
 // Extend the LitElement base class
 class RwButton extends LitElement {
@@ -17,7 +17,8 @@ class RwButton extends LitElement {
     this.label = newLabel;
   }
 
-  handleClick(e:Event):void { 
+  handleClick(e: Event): void { 
+    console.log(e);
     console.log(this.label + "has been clicked");
   }
 

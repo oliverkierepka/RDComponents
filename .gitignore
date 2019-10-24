@@ -179,3 +179,11 @@ package-lock.json
 analysis.json
 yarn-error.log
 .cache
+
+# Build output
+/build/
+/coverage/
+packages/*/dist
+packages/**/*.js
+packages/**/*.d.ts
+packages/**/*.map
