@@ -2,7 +2,7 @@ import { LitElement, html } from "lit-element";
 
 // Extend the LitElement base class
 class RwButton extends LitElement {
-  label: string;
+  label: string; 
 
   constructor(label:string="No Value set") { 
     super();
