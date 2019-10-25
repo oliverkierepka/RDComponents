@@ -1,6 +1,6 @@
 {
   "name": "@mrmoree/rw-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "All Rewe Components in one neat package",
   "keywords": [
     "rewe digital",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "@mrmoree/rw-button": "^0.0.1",
-    "@mrmoree/rw-readmore": "^0.0.4",
+    "@mrmoree/rw-readmore": "^0.0.5",
     "@mrmoree/rw-theme": "^0.0.4"
   },
   "publishConfig": {
