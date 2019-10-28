@@ -21,7 +21,7 @@
       ]
     },
     "bootstrap": {
-      "ignore": "",
+      "ignore": "rw-dev-toolkit",
       "npmClientArgs": ["--no-package-lock"]
     }
   }

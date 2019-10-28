@@ -1,24 +1,38 @@
 {
   "name": "@mrmoree/rw-theme",
-  "version": "0.0.4",
-  "description": "Vertical Components Theme for Rewe Digital",
+  "description": "The set of base classes for Rewe Components for the web",
   "keywords": [
     "rewe",
-    "webcomponents",
-    "theme"
+    "digital",
+    "web",
+    "components"
   ],
+  "author": "Oliver Kierepka <mrmoree2@gmail.com>",
+  "homepage": "https://github.com/mrmoree/ReweComponents/tree/master/elements/rw-theme#readme",
+  "version": "0.0.4",
+  "license": "MIT",
+  "lockfileVersion": 1,
+  "requires": true,
+  "main": "dist/rw.theme.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "types": "dist/rw.theme.d.ts",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrmoree/ReweComponents.git"
+    "url": "git+https://github.com/mrmoree/ReweComponents.git",
+    "directory": "elements/rw-theme"
   },
   "bugs": {
     "url": "https://github.com/mrmoree/ReweComponents/issues"
   },
-  "homepage": "https://github.com/mrmoree/ReweComponents#README",
-  "author": "Oliver Kierepka <ooliver.kierepka@rewe-digital.de> (https://rewe.de)",
-  "license": "MIT",
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "gitHead": "a2a67d734397ee17df6a7689f4306300a70970d8"
+  }
 }
