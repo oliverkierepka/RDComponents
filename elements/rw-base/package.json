@@ -11,6 +11,8 @@
   "homepage": "https://github.com/mrmoree/ReweComponents/tree/master/elements/rw-base#readme",
   "version": "0.0.4",
   "license": "MIT",
+  "lockfileVersion": 1,
+  "requires": true,
   "main": "dist/rw.base.js",
   "module": "index.js",
   "sideEffects": false,
