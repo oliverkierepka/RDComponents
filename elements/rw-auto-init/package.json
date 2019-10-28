@@ -1,7 +1,7 @@
 {
   "name": "@mrmoree/auto-init",
   "description": "Declarative, easy-to-use auto-initialization for Rewe Components for the web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/rw.autoInit.js",
   "module": "index.js",
@@ -13,7 +13,7 @@
     "directory": "elements/rw-auto-init"
   },
   "dependencies": {
-    "@mrmoree/base": "^0.0.1",
+    "@mrmoree/base": "^0.0.2",
     "tslib": "^1.10.0"
   }
 }

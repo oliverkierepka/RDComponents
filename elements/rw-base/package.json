@@ -1,7 +1,7 @@
 {
   "name": "@mrmoree/base",
   "description": "The set of base classes for Rewe Components for the web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "main": "dist/rw.base.js",
   "module": "index.js",
