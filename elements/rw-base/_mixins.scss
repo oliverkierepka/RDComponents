@@ -1,0 +1,11 @@
+// This variable is not intended to be overridden externally; it uses !default to avoid being reset
+// every time this file is imported.
+$rw-base-styles-emitted_: () !default;
+
+@mixin rw-base-emit-once($key) {
+  @if not index($rw-base-styles-emitted_, $key) {
+    $rw-base-styles-emitted_: append($rw-base-styles-emitted_, $key, comma) !global;
+
+    @content;
+  }
+}

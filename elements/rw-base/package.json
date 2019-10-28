@@ -1,0 +1,18 @@
+{
+  "name": "@mrmoree/base",
+  "description": "The set of base classes for Rewe Components for the web",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/rw.base.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "types": "dist/rw.base.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrmoree/ReweComponents.git",
+    "directory": "elements/rw-base"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+}

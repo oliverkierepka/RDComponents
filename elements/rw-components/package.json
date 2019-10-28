@@ -12,7 +12,9 @@
     "directory": "elements/rw-components"
   },
   "main": "dist/rw-components.js",
-  "module": "dist/rw-components.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "types": "dist/rw-components.d.ts",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
