@@ -9,7 +9,7 @@
   ],
   "author": "Oliver Kierepka <mrmoree2@gmail.com>",
   "homepage": "https://github.com/mrmoree/ReweComponents/tree/master/elements/rw-base#readme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "main": "dist/rw.base.js",
   "module": "index.js",
