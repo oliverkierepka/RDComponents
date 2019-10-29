@@ -9,7 +9,7 @@
   ],
   "author": "Oliver Kierepka <mrmoree2@gmail.com>",
   "homepage": "https://github.com/mrmoree/ReweComponents/tree/master/elements/rw-base#readme",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "lockfileVersion": 1,
   "requires": true,
@@ -30,7 +30,7 @@
     "url": "https://github.com/mrmoree/ReweComponents/issues"
   },
   "dependencies": {
-    "tslib": "^1.10.0" 
+    "tslib": "^1.10.0"
   },
   "gitHead": "3e40d749b76928d7745218933e898dcd590cf441",
   "publishConfig": {

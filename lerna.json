@@ -16,8 +16,6 @@
       "message": "chore(release): publish",
       "yes": true,
       "ignoreChanges": [
-        "ignored-file",
-        "*.md"
       ]
     },
     "bootstrap": {
