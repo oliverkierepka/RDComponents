@@ -32,8 +32,5 @@
   "dependencies": {
     "tslib": "^1.10.0"
   },
-  "gitHead": "3e40d749b76928d7745218933e898dcd590cf441",
-  "publishConfig": {
-    "access": "public"
-  }
+  "gitHead": "3e40d749b76928d7745218933e898dcd590cf441"
 }
