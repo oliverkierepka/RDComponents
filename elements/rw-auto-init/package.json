@@ -28,7 +28,7 @@
     "url": "https://github.com/mrmoree/ReweComponents/issues"
   },
   "dependencies": {
-    "@mrmoree/base": "^0.0.5",
+    "@mrmoree/base": "0.0.5",
     "tslib": "^1.10.0"
   },
   "gitHead": "3e40d749b76928d7745218933e898dcd590cf441",
