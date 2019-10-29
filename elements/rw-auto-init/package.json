@@ -1,7 +1,7 @@
 {
   "name": "@mrmoree/auto-init",
   "description": "Declarative, easy-to-use auto-initialization for Rewe Components for the web",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "rewe",
     "digital",
@@ -28,7 +28,7 @@
     "url": "https://github.com/mrmoree/ReweComponents/issues"
   },
   "dependencies": {
-    "@mrmoree/base": "^0.0.7",
+    "@mrmoree/base": "^0.0.8",
     "tslib": "^1.10.0"
   },
   "gitHead": "3e40d749b76928d7745218933e898dcd590cf441",
