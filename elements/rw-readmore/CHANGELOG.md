@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.12](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-readmore@0.0.11...@mrmoree/rw-readmore@0.0.12) (2019-10-30)
+
+**Note:** Version bump only for package @mrmoree/rw-readmore
+
+
+
+
+
 ## [0.0.11](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-readmore@0.0.10...@mrmoree/rw-readmore@0.0.11) (2019-10-30)
 
 **Note:** Version bump only for package @mrmoree/rw-readmore
