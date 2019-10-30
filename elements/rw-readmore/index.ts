@@ -1,2 +1,2 @@
-import ReweReadmore from '@mrmoree/rw-readmore';
+import ReweReadmore from './rw-readmore';
 export default ReweReadmore;

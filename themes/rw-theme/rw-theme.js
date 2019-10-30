@@ -1,2 +1,2 @@
-import * as styles from './rw-theme.scss';
-export default styles;
+import './rw-theme.scss';
+//# sourceMappingURL=rw-theme.js.map
