@@ -29,7 +29,7 @@
   "author": "Oliver Kierepka <oliver.kierepka@rewe-digital.de> (https://rewe.de)",
   "license": "MIT",
   "dependencies": {
-    "@mrmoree/rw-button": "^0.0.1",
+    "@mrmoree/rw-button": "^1.0.9",
     "@mrmoree/rw-readmore": "^0.0.10",
     "@mrmoree/rw-theme": "^0.0.5"
   },

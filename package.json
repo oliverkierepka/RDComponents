@@ -76,8 +76,9 @@
     "postinstall": "lerna bootstrap",
     "bootstrap": "lerna bootstrap",
     "release": "npm run build && lerna publish",
-    "dev": "npm watch",
-    "watch": "concurrent \"build:ts\" \"build:babel --\" \"jest -w",
+    "devserver": "webpack-dev-server",
+    "dev": "npm run watch",
+    "watch": "concurrently build:ts build:babel -- test -w",
     "predeploy": "npm build"
   },
   "npmClient": "npm",

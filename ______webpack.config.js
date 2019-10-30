@@ -1,11 +1,12 @@
+// webpack.settings.js - webpack settings config
 var path = require('path');
 
 module.exports = {
-    mode: 'development',
-    name: "Rewe Web Components General Setup",
-    entry: './src/[name]',
+    mode:"development",
+    name:"Rewe Web Components General Setup",
+    entry:'./[name]',
     output:{
-        filename: '[name].[contenthash].js',
+        filename:'[name].[contenthash].js',
         path:path.resolve(__dirname, 'dist')
     },
     resolve: {
