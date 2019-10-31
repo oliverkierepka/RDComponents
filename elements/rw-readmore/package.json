@@ -1,6 +1,6 @@
 {
   "name": "@mrmoree/rw-readmore",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "The RD Web Components readmore component",
   "keywords": [
     "webcomponents",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
-    "@mrmoree/rw-theme": "^0.0.9"
+    "@mrmoree/rw-theme": "^0.0.10"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
   "name": "@mrmoree/rw-components",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "All RD Components in one neat package",
   "keywords": [
     "rd",
@@ -29,9 +29,9 @@
   "author": "Oliver Kierepka <oliver.kierepka@RD-digital.de> (https://RD.de)",
   "license": "MIT",
   "dependencies": {
-    "@mrmoree/rw-button": "^1.0.13",
-    "@mrmoree/rw-readmore": "^0.0.14",
-    "@mrmoree/rw-theme": "^0.0.9"
+    "@mrmoree/rw-button": "^1.0.14",
+    "@mrmoree/rw-readmore": "^0.0.15",
+    "@mrmoree/rw-theme": "^0.0.10"
   },
   "publishConfig": {
     "access": "public"
