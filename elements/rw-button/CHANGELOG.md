@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.13](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-button@1.0.12...@mrmoree/rw-button@1.0.13) (2019-10-31)
+
+**Note:** Version bump only for package @mrmoree/rw-button
+
+
+
+
+
 ## [1.0.12](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-button@1.0.11...@mrmoree/rw-button@1.0.12) (2019-10-31)
 
 **Note:** Version bump only for package @mrmoree/rw-button

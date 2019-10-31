@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.11](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/base@0.0.10...@mrmoree/base@0.0.11) (2019-10-31)
+
+**Note:** Version bump only for package @mrmoree/base
+
+
+
+
+
 ## [0.0.10](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/base@0.0.9...@mrmoree/base@0.0.10) (2019-10-31)
 
 **Note:** Version bump only for package @mrmoree/base

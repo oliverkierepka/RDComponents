@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.9](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-theme@0.0.8...@mrmoree/rw-theme@0.0.9) (2019-10-31)
+
+**Note:** Version bump only for package @mrmoree/rw-theme
+
+
+
+
+
 ## [0.0.8](https://github.com/mrmoree/ReweComponents/compare/@mrmoree/rw-theme@0.0.7...@mrmoree/rw-theme@0.0.8) (2019-10-31)
 
 **Note:** Version bump only for package @mrmoree/rw-theme
