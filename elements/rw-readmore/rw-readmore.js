@@ -108,4 +108,3 @@ class ReweReadmore extends HTMLElement {
 }
 customElements.define('rw-readmore', ReweReadmore);
 export default ReweReadmore;
-//# sourceMappingURL=rw-readmore.js.map

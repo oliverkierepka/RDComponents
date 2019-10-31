@@ -1,7 +1,8 @@
 'use strict';
 
-describe("rw-button Test Suite", () => {
-    test("button must have a label", () => {
-        test.todo("test if button has a label by calling its own getter label()")
-    })
-})
+describe("rw-button Test Suite", function () {
+  test("button must have a label", function () {
+    test.todo("test if button has a label by calling its own getter label()");
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ3LWJ1dHRvbi50ZXN0LmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwidGVzdCIsInRvZG8iXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBQSxRQUFRLENBQUMsc0JBQUQsRUFBeUIsWUFBTTtBQUNuQ0MsRUFBQUEsSUFBSSxDQUFDLDBCQUFELEVBQTZCLFlBQU07QUFDbkNBLElBQUFBLElBQUksQ0FBQ0MsSUFBTCxDQUFVLDhEQUFWO0FBQ0gsR0FGRyxDQUFKO0FBR0gsQ0FKTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5kZXNjcmliZShcInJ3LWJ1dHRvbiBUZXN0IFN1aXRlXCIsICgpID0+IHtcbiAgICB0ZXN0KFwiYnV0dG9uIG11c3QgaGF2ZSBhIGxhYmVsXCIsICgpID0+IHtcbiAgICAgICAgdGVzdC50b2RvKFwidGVzdCBpZiBidXR0b24gaGFzIGEgbGFiZWwgYnkgY2FsbGluZyBpdHMgb3duIGdldHRlciBsYWJlbCgpXCIpXG4gICAgfSlcbn0pXG4iXX0=

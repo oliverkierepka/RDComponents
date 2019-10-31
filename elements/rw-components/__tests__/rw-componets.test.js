@@ -1,5 +1,6 @@
 'use strict';
 
-describe("rw-components Test Suite", () => {
-    test.todo("Write Integration test for rw-components")
-})
+describe("rw-components Test Suite", function () {
+  test.todo("Write Integration test for rw-components");
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ3LWNvbXBvbmV0cy50ZXN0LmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwidGVzdCIsInRvZG8iXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBQSxRQUFRLENBQUMsMEJBQUQsRUFBNkIsWUFBTTtBQUN2Q0MsRUFBQUEsSUFBSSxDQUFDQyxJQUFMLENBQVUsMENBQVY7QUFDSCxDQUZPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbmRlc2NyaWJlKFwicnctY29tcG9uZW50cyBUZXN0IFN1aXRlXCIsICgpID0+IHtcbiAgICB0ZXN0LnRvZG8oXCJXcml0ZSBJbnRlZ3JhdGlvbiB0ZXN0IGZvciBydy1jb21wb25lbnRzXCIpXG59KVxuIl19

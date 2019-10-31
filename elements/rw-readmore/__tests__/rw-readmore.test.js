@@ -4,4 +4,3 @@ describe("rwReadmore Test Suite", () => {
         test.todo("test if rwReadMore has a text and if opening and closing works");
     });
 });
-//# sourceMappingURL=rw-readmore.test.js.map

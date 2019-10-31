@@ -29,4 +29,3 @@ class RwButton extends LitElement {
     }
 }
 customElements.define('rw-button', RwButton);
-//# sourceMappingURL=rw-button.js.map

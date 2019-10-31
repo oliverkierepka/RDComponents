@@ -16,6 +16,7 @@ Build:js: babel + polyfills via web pack
 
 DEVELOP
 watch: concurrently build + test --watch √
+webpack dev server mit live reload vorschau
 
 
 PUBLISHING √

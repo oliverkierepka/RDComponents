@@ -43,4 +43,3 @@ export class RWComponent {
     }
 }
 export default RWComponent;
-//# sourceMappingURL=component.js.map
