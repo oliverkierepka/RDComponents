@@ -1,6 +1,6 @@
 {
   "name": "@mrmoree/rw-components",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "All Rewe Components in one neat package",
   "keywords": [
     "rewe digital",
@@ -29,9 +29,9 @@
   "author": "Oliver Kierepka <oliver.kierepka@rewe-digital.de> (https://rewe.de)",
   "license": "MIT",
   "dependencies": {
-    "@mrmoree/rw-button": "^1.0.11",
-    "@mrmoree/rw-readmore": "^0.0.12",
-    "@mrmoree/rw-theme": "^0.0.7"
+    "@mrmoree/rw-button": "^1.0.12",
+    "@mrmoree/rw-readmore": "^0.0.13",
+    "@mrmoree/rw-theme": "^0.0.8"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
   "name": "@mrmoree/rw-readmore",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "The Rewe Digital Web Components readmore component",
   "keywords": [
     "vertical",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
-    "@mrmoree/rw-theme": "^0.0.7"
+    "@mrmoree/rw-theme": "^0.0.8"
   },
   "publishConfig": {
     "access": "public"
