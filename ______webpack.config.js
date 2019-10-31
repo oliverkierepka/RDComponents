@@ -1,30 +1,31 @@
-// webpack.settings.js - webpack settings config
+import "core-js/modules/es.array.join";
+import "core-js/modules/es.array.join"; // webpack.settings.js - webpack settings config
+
 var path = require('path');
 
 module.exports = {
-    mode:"development",
-    name:"Rewe Web Components General Setup",
-    entry:'./[name]',
-    output:{
-        filename:'[name].[contenthash].js',
-        path:path.resolve(__dirname, 'dist')
-    },
-    resolve: {
-        extensions: ['.ts', '.tsx', '.js', '.json']
-    },
-    devServer: {
-        contentBase: path.join(__dirname, 'dist'),
-        compress: true,
-        port: 9000
-    },
-    module: {
-        rules: [{
-            // Include ts, tsx, js, and jsx files.
-            test: /\.(ts|js)x?$/,
-            exclude: "/node_modules/",
-            loader: 'babel-loader',
-        }]
-    }
+  mode: "development",
+  name: "Rewe Web Components General Setup",
+  entry: './[name]',
+  output: {
+    filename: '[name].[contenthash].js',
+    path: path.resolve(__dirname, 'dist')
+  },
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.json']
+  },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  },
+  module: {
+    rules: [{
+      // Include ts, tsx, js, and jsx files.
+      test: /\.(ts|js)x?$/,
+      exclude: "/node_modules/",
+      loader: 'babel-loader'
+    }]
+  }
 };
-
-  
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIl9fX19fX3dlYnBhY2suY29uZmlnLmpzIl0sIm5hbWVzIjpbInBhdGgiLCJyZXF1aXJlIiwibW9kdWxlIiwibW9kZSIsIm5hbWUiLCJlbnRyeSIsIm91dHB1dCIsImZpbGVuYW1lIiwicmVzb2x2ZSIsImV4dGVuc2lvbnMiLCJkZXZTZXJ2ZXIiLCJjb250ZW50QmFzZSIsImNvbXByZXNzIiwicG9ydCIsInJ1bGVzIiwidGVzdCIsImV4Y2x1ZGUiLCJsb2FkZXIiXSwibWFwcGluZ3MiOiI7d0NBQUE7O0FBQ0EsSUFBSUEsSUFBSSxHQUFHQyxPQUFPLENBQWxCLE1BQWtCLENBQWxCOztBQUVBQyxNQUFNLENBQU5BLE9BQUFBLEdBQWlCO0FBQ2JDLEVBQUFBLElBQUksRUFEUyxhQUFBO0FBRWJDLEVBQUFBLElBQUksRUFGUyxtQ0FBQTtBQUdiQyxFQUFBQSxLQUFLLEVBSFEsVUFBQTtBQUliQyxFQUFBQSxNQUFNLEVBQUM7QUFDSEMsSUFBQUEsUUFBUSxFQURMLHlCQUFBO0FBRUhQLElBQUFBLElBQUksRUFBQ0EsSUFBSSxDQUFKQSxPQUFBQSxDQUFBQSxTQUFBQSxFQUFBQSxNQUFBQTtBQUZGLEdBSk07QUFRYlEsRUFBQUEsT0FBTyxFQUFFO0FBQ0xDLElBQUFBLFVBQVUsRUFBRSxDQUFBLEtBQUEsRUFBQSxNQUFBLEVBQUEsS0FBQSxFQUFBLE9BQUE7QUFEUCxHQVJJO0FBV2JDLEVBQUFBLFNBQVMsRUFBRTtBQUNQQyxJQUFBQSxXQUFXLEVBQUVYLElBQUksQ0FBSkEsSUFBQUEsQ0FBQUEsU0FBQUEsRUFETixNQUNNQSxDQUROO0FBRVBZLElBQUFBLFFBQVEsRUFGRCxJQUFBO0FBR1BDLElBQUFBLElBQUksRUFBRTtBQUhDLEdBWEU7QUFnQmJYLEVBQUFBLE1BQU0sRUFBRTtBQUNKWSxJQUFBQSxLQUFLLEVBQUUsQ0FBQztBQUNKO0FBQ0FDLE1BQUFBLElBQUksRUFGQSxjQUFBO0FBR0pDLE1BQUFBLE9BQU8sRUFISCxnQkFBQTtBQUlKQyxNQUFBQSxNQUFNLEVBQUU7QUFKSixLQUFEO0FBREg7QUFoQkssQ0FBakJmIiwic291cmNlc0NvbnRlbnQiOlsiLy8gd2VicGFjay5zZXR0aW5ncy5qcyAtIHdlYnBhY2sgc2V0dGluZ3MgY29uZmlnXG52YXIgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTtcblxubW9kdWxlLmV4cG9ydHMgPSB7XG4gICAgbW9kZTpcImRldmVsb3BtZW50XCIsXG4gICAgbmFtZTpcIlJld2UgV2ViIENvbXBvbmVudHMgR2VuZXJhbCBTZXR1cFwiLFxuICAgIGVudHJ5OicuL1tuYW1lXScsXG4gICAgb3V0cHV0OntcbiAgICAgICAgZmlsZW5hbWU6J1tuYW1lXS5bY29udGVudGhhc2hdLmpzJyxcbiAgICAgICAgcGF0aDpwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnZGlzdCcpXG4gICAgfSxcbiAgICByZXNvbHZlOiB7XG4gICAgICAgIGV4dGVuc2lvbnM6IFsnLnRzJywgJy50c3gnLCAnLmpzJywgJy5qc29uJ11cbiAgICB9LFxuICAgIGRldlNlcnZlcjoge1xuICAgICAgICBjb250ZW50QmFzZTogcGF0aC5qb2luKF9fZGlybmFtZSwgJ2Rpc3QnKSxcbiAgICAgICAgY29tcHJlc3M6IHRydWUsXG4gICAgICAgIHBvcnQ6IDkwMDBcbiAgICB9LFxuICAgIG1vZHVsZToge1xuICAgICAgICBydWxlczogW3tcbiAgICAgICAgICAgIC8vIEluY2x1ZGUgdHMsIHRzeCwganMsIGFuZCBqc3ggZmlsZXMuXG4gICAgICAgICAgICB0ZXN0OiAvXFwuKHRzfGpzKXg/JC8sXG4gICAgICAgICAgICBleGNsdWRlOiBcIi9ub2RlX21vZHVsZXMvXCIsXG4gICAgICAgICAgICBsb2FkZXI6ICdiYWJlbC1sb2FkZXInLFxuICAgICAgICB9XVxuICAgIH1cbn07XG5cbiAgIl19

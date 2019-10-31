@@ -18,15 +18,15 @@
     "preserveConstEnums": true,
     "pretty": true,
     "skipLibCheck": true,
-    "sourceMap": true,
     "stripInternal": true,
     "baseUrl": "."
   },
+  "emitDeclarationOnly": true,
+
   "exclude": [
     "scripts/**/*.ts",
     "node_modules",
-    "dist",
-    "web/webpack.config.ts",
+    "webpack.config.ts",
     "__test__"
   ],
   "include": [

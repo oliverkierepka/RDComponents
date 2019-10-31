@@ -1,0 +1,35 @@
+TESTING: √ 
+
+Jest √
+Mockdata / Demodata in component ablegen
+
+
+LINTING
+Eslint for typescript 
+Prettier (+ watch mode)
+
+BUILD
+
+Build:ts: typescript to commonjs √
+Build:js: babel + polyfills via web pack
+
+
+DEVELOP
+watch: concurrently build + test --watch √
+
+
+PUBLISHING √
+
+pre publish: lint, test, predeploy, docs
+publish: Lerna release √
+
+
+
+INSTALL
+
+post install: lerna bootstrap
+
+
+DOCS
+
+Lerna typedoc
