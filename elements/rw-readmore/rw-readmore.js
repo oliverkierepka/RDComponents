@@ -45,7 +45,7 @@ tmpl.innerHTML = `
     <div class="readmore__content">
         <slot name="readmore-content">Please provide Content via slot="readmore-content")</slot>
     </div>`;
-class ReweReadmore extends HTMLElement {
+class RDReadmore extends HTMLElement {
     constructor() {
         super();
         this.disabled = false;
@@ -106,5 +106,5 @@ class ReweReadmore extends HTMLElement {
         return 'rw-readmore says, ' + response;
     }
 }
-customElements.define('rw-readmore', ReweReadmore);
-export default ReweReadmore;
+customElements.define('rw-readmore', RDReadmore);
+export default RDReadmore;

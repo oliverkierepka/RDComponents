@@ -1,6 +1,6 @@
-# ReweComponents
+# RDComponents
 
-This is the monorepo for Rewe Web-Components. 
+This is the monorepo for RD Web-Components. 
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 

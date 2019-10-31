@@ -1,14 +1,14 @@
 {
   "name": "@mrmoree/base",
-  "description": "The set of base classes for Rewe Components for the web",
+  "description": "The set of base classes for RD Components for the web",
   "keywords": [
-    "rewe",
+    "RD",
     "digital",
     "web",
     "components"
   ],
   "author": "Oliver Kierepka <mrmoree2@gmail.com>",
-  "homepage": "https://github.com/mrmoree/ReweComponents/tree/master/elements/rw-base#readme",
+  "homepage": "https://github.com/mrmoree/RDComponents/tree/master/elements/rw-base#readme",
   "version": "0.0.11",
   "license": "MIT",
   "lockfileVersion": 1,
@@ -23,11 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrmoree/ReweComponents.git",
+    "url": "git+https://github.com/mrmoree/RDComponents.git",
     "directory": "elements/rw-base"
   },
   "bugs": {
-    "url": "https://github.com/mrmoree/ReweComponents/issues"
+    "url": "https://github.com/mrmoree/RDComponents/issues"
   },
   "dependencies": {
     "tslib": "^1.10.0"

@@ -1,3 +1,3 @@
-#rw-readmore Component for Rewe Digital Web Components
+#rw-readmore Component for RD Web Components
 
 This component renders a readmore block

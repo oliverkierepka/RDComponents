@@ -1,20 +1,20 @@
 {
   "name": "@mrmoree/rw-components",
   "version": "0.0.1",
-  "description": "Rewe Web Components",
+  "description": "RD Web Components",
   "keywords": [
-    "rewe",
+    "RD",
     "webcomponents"
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mrmoree/ReweComponents.git"
+    "url": "git+ssh://git@github.com/mrmoree/RDComponents.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmoree/ReweComponents/issues"
+    "url": "https://github.com/mrmoree/RDComponents/issues"
   },
-  "homepage": "https://github.com/mrmoree/ReweComponents#README",
-  "author": "Interfacers (https://rewe.de)",
+  "homepage": "https://github.com/mrmoree/RDComponents#README",
+  "author": "Interfacers (https://RD.de)",
   "license": "MIT",
   "dependencies": {
     "@babel/preset-env": "^7.6.3",

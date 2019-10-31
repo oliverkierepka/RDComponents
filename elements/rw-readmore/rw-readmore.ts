@@ -1,5 +1,5 @@
 let tmpl = document.createElement('template');
-//import ReweTheme from '@mrmoree/rw-theme';
+//import RDTheme from '@mrmoree/rw-theme';
 
 tmpl.innerHTML = `
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
@@ -48,7 +48,7 @@ tmpl.innerHTML = `
         <slot name="readmore-content">Please provide Content via slot="readmore-content")</slot>
     </div>`;
 
-class ReweReadmore extends HTMLElement {
+class RDReadmore extends HTMLElement {
     disabled: boolean;
     
     // Can define constructor arguments if you wish.
@@ -142,7 +142,7 @@ class ReweReadmore extends HTMLElement {
 
 }
 
-customElements.define('rw-readmore', ReweReadmore);
+customElements.define('rw-readmore', RDReadmore);
 
-export default ReweReadmore;
+export default RDReadmore;
 

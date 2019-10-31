@@ -2,7 +2,7 @@ var path = require('path');
 
 module.exports = {
     mode: 'development',
-    name: "Rewe Web Components General Setup",
+    name: "RD Web Components General Setup",
     entry: './src/[name]',
     output:{
         filename: '[name].[contenthash].js',

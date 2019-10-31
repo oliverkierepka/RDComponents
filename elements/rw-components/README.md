@@ -1,3 +1,3 @@
-#Rewe Web Components all in one
+#RD Web Components all in one
 
-This package has all the Rewe Components in one neat package
+This package has all the RD Components in one neat package

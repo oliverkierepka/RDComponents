@@ -1,15 +1,14 @@
 {
   "name": "@mrmoree/rw-readmore",
   "version": "0.0.14",
-  "description": "The Rewe Digital Web Components readmore component",
+  "description": "The RD Web Components readmore component",
   "keywords": [
-    "vertical",
     "webcomponents",
     "readmore"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mrmoree/ReweComponents.git"
+    "url": "git@github.com:mrmoree/RDComponents.git"
   },
   "main": "dist/rw-readmore.js",
   "module": "index.js",
@@ -23,10 +22,10 @@
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/mrmoree/ReweComponents/issues"
+    "url": "https://github.com/mrmoree/RDComponents/issues"
   },
-  "homepage": "https://github.com/mrmoree/ReweComponents#README",
-  "author": "Oliver Kierepka <oliver.kierepka@rewe-digital.de> (https://rewe.de)",
+  "homepage": "https://github.com/mrmoree/RDComponents#README",
+  "author": "Oliver Kierepka <oliver.kierepka@RD-digital.de> (https://RD.de)",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.6.3",
